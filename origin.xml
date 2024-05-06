@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><tuning config_version="1.0.0" bnc_verson="1.3.0">
+    <module id="0" name="module name0">
+       <mode value="0">
+            <param name="selfie_mode" value="0"/>
+            <param name="lrc_enable" value="1"/>
+            <param name="hpf_enable" value="1"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="rmx_amount" value="9"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="64"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="1"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="pregain_limiter_peak" value="256"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="256"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+            <param name="postgain_limiter_peak" value="241"/>
+       </mode>
+        <mode value="1">
+            <param name="selfie_mode" value="0"/>
+            <param name="lrc_enable" value="0"/>
+            <param name="hpf_enable" value="1"/>
+        </mode>
+        <mode value="2">
+            <param name="selfie_mode" value="0"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_loudness_range" value="122"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="1"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="ldn_enable" value="1"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="160"/>
+            <param name="pregain_limiter_peak" value="1"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="0"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="160"/>
+            <param name="postgain_limiter_peak" value="256"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+        </mode>
+        <mode value="3">
+            <param name="sfe_enable" value="1"/>
+            <param name="sfe_amount" value="8"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="11"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="bsep_enable" value="1"/>
+            <param name="bsep_resgain_attenuate" value="48"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_out_target" value="-128"/>
+            <param name="postgain_limiter_peak" value="256"/>
+        </mode>
+    </module>
+    <module id="0" name="module name1">
+        <mode value="0">
+            <param name="selfie_mode" value="0"/>
+            <param name="lrc_enable" value="1"/>
+            <param name="hpf_enable" value="1"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="rmx_amount" value="9"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="64"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="1"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="pregain_limiter_peak" value="256"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="272"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+            <param name="postgain_limiter_peak" value="241"/>
+        </mode>
+        <mode value="1">
+            <param name="selfie_mode" value="1"/>
+            <param name="lrc_enable" value="0"/>
+            <param name="hpf_enable" value="1"/>
+        </mode>
+        <mode value="2">
+            <param name="selfie_mode" value="1"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_loudness_range" value="122"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="1"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="ldn_enable" value="1"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="160"/>
+            <param name="pregain_limiter_peak" value="1"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="0"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="160"/>
+            <param name="postgain_limiter_peak" value="256"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+        </mode>
+        <mode value="3">
+            <param name="sfe_enable" value="1"/>
+            <param name="sfe_amount" value="8"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="11"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="bsep_enable" value="1"/>
+            <param name="bsep_resgain_attenuate" value="48"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_out_target" value="-128"/>
+            <param name="postgain_limiter_peak" value="256"/>
+        </mode>
+    </module>
+    <module id="0" name="module name2">
+        <mode value="0">
+            <param name="selfie_mode" value="1"/>
+            <param name="lrc_enable" value="1"/>
+            <param name="hpf_enable" value="1"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="64"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="1"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="pregain_limiter_peak" value="1"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="272"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+            <param name="postgain_limiter_peak" value="241"/>
+        </mode>
+        <mode value="1">
+            <param name="selfie_mode" value="1"/>
+            <param name="lrc_enable" value="0"/>
+            <param name="hpf_enable" value="1"/>
+        </mode>
+        <mode value="2">
+            <param name="selfie_mode" value="1"/>
+            <param name="peq_amount" value="16"/>
+            <param name="nfm_amount" value="16"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_loudness_range" value="122"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="1"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="ldn_enable" value="1"/>
+            <param name="pregain_enable" value="1"/>
+            <param name="pregain_boost" value="160"/>
+            <param name="pregain_limiter_peak" value="1"/>
+            <param name="pregain_dra_enable" value="1"/>
+            <param name="pregain_dra_tuning" value="-400,10923,30433,32168"/>
+            <param name="pregain_agc_enable" value="0"/>
+            <param name="pregain_agc_amount" value="256"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_boost" value="160"/>
+            <param name="postgain_limiter_peak" value="256"/>
+            <param name="postgain_dra_enable" value="1"/>
+            <param name="postgain_dra_tuning" value="-400,6554,28264,31579"/>
+            <param name="postgain_agc_enable" value="1"/>
+            <param name="postgain_agc_amount" value="256"/>
+        </mode>
+        <mode value="3">
+            <param name="sfe_enable" value="1"/>
+            <param name="sfe_amount" value="8"/>
+            <param name="wnr_enable" value="1"/>
+            <param name="wnr_amount" value="16"/>
+            <param name="rnn_enable" value="1"/>
+            <param name="rnn_amount" value="8"/>
+            <param name="lev_enable" value="1"/>
+            <param name="lev_amount" value="13"/>
+            <param name="deq_enable" value="11"/>
+            <param name="rmx_amount" value="11"/>
+            <param name="bsep_enable" value="1"/>
+            <param name="bsep_resgain_attenuate" value="48"/>
+            <param name="postgain_enable" value="1"/>
+            <param name="postgain_out_target" value="-128"/>
+            <param name="postgain_limiter_peak" value="256"/>
+        </mode>
+    </module>
+    <btheadset name="OPPO Enco X2">
+        <nfm_band_energy_tuning value="-724,-742,-792,-847,-874,-894,-914,-926,-935,-947,-957,-963,-968,-974,-981,-989,-998,-1005,-1008,-1009,-1012,-1019,-1029,-1033,-1046,-1061,-1069,-1074,-1078,-1083,-1088,-1093,-1095,-1099,-1099,-1102,-1106,-1109,-1114,-1121,-1120,-1123,-1122,-1124,-1123,-1133,-1134,-1136,-1138,-1141,-1143,-1144,-1143,-1145,-1147,-1146,-1148,-1147,-1147,-1148,-1147,-1145,-1144,-1140,-1137,-1130,-1120,-1112,-1106,-1094,-1092,-1097,-1162"/>
+        <profile name="normal">
+            <include module_name="module name0"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+        <profile name="selfie">
+            <include module_name="module name1"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+        <profile name="selfie-mirror">
+            <include module_name="module name2"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+    </btheadset>
+    <btheadset name="BT-UUID-4">
+        <nfm_band_energy_tuning value="-724,-742,-792,-847,-874,-894,-914,-926,-935,-947,-957,-963,-968,-974,-981,-989,-998,-1005,-1008,-1009,-1012,-1019,-1029,-1033,-1046,-1061,-1069,-1074,-1078,-1083,-1088,-1093,-1095,-1099,-1099,-1102,-1106,-1109,-1114,-1121,-1120,-1123,-1122,-1124,-1123,-1133,-1134,-1136,-1138,-1141,-1143,-1144,-1143,-1145,-1147,-1146,-1148,-1147,-1147,-1148,-1147,-1145,-1144,-1140,-1137,-1130,-1120,-1112,-1106,-1094,-1092,-1097,-1162"/>
+        <profile name="normal">
+            <include module_name="module name2"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+        <profile name="selfie">
+            <include module_name="module name1"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+        <profile name="selfie-mirror">
+            <include module_name="module name0"/>
+            <peq_band_gain_tuning mode="0" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+            <peq_band_gain_tuning mode="2" value="41,37,27,15,3,2,2,0,0,0,0,0,0,5,5,5,5,5,6,6,6,7,7,8,10,12,13,13,14,16,18,18,18,19,21,23,24,28,34,39,45,51,56,61,66,72,74,70,61,52,46,44,36,15,0,-19,-50,-77,-104,-126,-143,-153,-160,-167,-164,-119,-47,26,41,66,103,151,211"/>
+        </profile>
+    </btheadset>
+</tuning>

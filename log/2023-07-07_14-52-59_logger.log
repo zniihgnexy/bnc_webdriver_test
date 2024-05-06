@@ -1,0 +1,9 @@
+2023-07-07 14:52:59,348 - INFO - Clicking element with XPath: //*[@class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close"]
+2023-07-07 14:52:59,637 - INFO - Click action successful
+2023-07-07 14:52:59,638 - INFO - PASS
+2023-07-07 14:52:59,676 - INFO - Clicking element with XPath: //*[@id="import_json"]
+2023-07-07 14:52:59,676 - INFO - Clicking element with XPath: //*[@id="import_json"]
+2023-07-07 14:52:59,735 - INFO - Click action successful
+2023-07-07 14:52:59,735 - INFO - Click action successful
+2023-07-07 14:52:59,735 - INFO - PASS
+2023-07-07 14:52:59,735 - INFO - PASS

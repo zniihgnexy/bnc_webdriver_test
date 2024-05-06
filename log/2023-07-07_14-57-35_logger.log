@@ -1,0 +1,122 @@
+2023-07-07 14:57:35,869 - INFO - Clicking element with XPath: //*[@class="ui-button ui-corner-all ui-widget ui-button-icon-only ui-dialog-titlebar-close"]
+2023-07-07 14:57:35,932 - INFO - Click action successful
+2023-07-07 14:57:35,969 - INFO - Clicking element with XPath: //*[@id="import_json"]
+2023-07-07 14:57:35,969 - INFO - Clicking element with XPath: //*[@id="import_json"]
+2023-07-07 14:57:36,018 - INFO - Click action successful
+2023-07-07 14:57:36,018 - INFO - Click action successful
+2023-07-07 14:57:39,744 - INFO - Clicking element with XPath: /html/body/div[6]/div[1]/button
+2023-07-07 14:57:39,744 - INFO - Clicking element with XPath: /html/body/div[6]/div[1]/button
+2023-07-07 14:57:39,805 - INFO - Click action successful
+2023-07-07 14:57:39,805 - INFO - Click action successful
+2023-07-07 14:57:39,808 - INFO - Clicking element with XPath: //checkbox[@id="onepass-content-pre-process-0-checkbox"]
+2023-07-07 14:57:39,808 - INFO - Clicking element with XPath: //checkbox[@id="onepass-content-pre-process-0-checkbox"]
+2023-07-07 14:57:39,823 - ERROR - Click action failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//checkbox[@id="onepass-content-pre-process-0-checkbox"]"}
+  (Session info: chrome=98.0.4758.141)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B69A3+2582947]
+	Ordinal0 [0x0084A6D1+2139857]
+	Ordinal0 [0x00743A98+1063576]
+	Ordinal0 [0x0076FF3E+1244990]
+	Ordinal0 [0x0077013B+1245499]
+	Ordinal0 [0x00799F52+1417042]
+	Ordinal0 [0x00788594+1344916]
+	Ordinal0 [0x0079834A+1409866]
+	Ordinal0 [0x00788366+1344358]
+	Ordinal0 [0x00765176+1200502]
+	Ordinal0 [0x00766066+1204326]
+	GetHandleVerifier [0x00A5BE02+1675858]
+	GetHandleVerifier [0x00B1036C+2414524]
+	GetHandleVerifier [0x0094BB01+560977]
+	GetHandleVerifier [0x0094A8D3+556323]
+	Ordinal0 [0x0085020E+2163214]
+	Ordinal0 [0x00855078+2183288]
+	Ordinal0 [0x008551C0+2183616]
+	Ordinal0 [0x0085EE1C+2223644]
+	BaseThreadInitThunk [0x756900C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77837B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77837B1E+238]
+
+2023-07-07 14:57:39,823 - ERROR - Click action failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//checkbox[@id="onepass-content-pre-process-0-checkbox"]"}
+  (Session info: chrome=98.0.4758.141)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B69A3+2582947]
+	Ordinal0 [0x0084A6D1+2139857]
+	Ordinal0 [0x00743A98+1063576]
+	Ordinal0 [0x0076FF3E+1244990]
+	Ordinal0 [0x0077013B+1245499]
+	Ordinal0 [0x00799F52+1417042]
+	Ordinal0 [0x00788594+1344916]
+	Ordinal0 [0x0079834A+1409866]
+	Ordinal0 [0x00788366+1344358]
+	Ordinal0 [0x00765176+1200502]
+	Ordinal0 [0x00766066+1204326]
+	GetHandleVerifier [0x00A5BE02+1675858]
+	GetHandleVerifier [0x00B1036C+2414524]
+	GetHandleVerifier [0x0094BB01+560977]
+	GetHandleVerifier [0x0094A8D3+556323]
+	Ordinal0 [0x0085020E+2163214]
+	Ordinal0 [0x00855078+2183288]
+	Ordinal0 [0x008551C0+2183616]
+	Ordinal0 [0x0085EE1C+2223644]
+	BaseThreadInitThunk [0x756900C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77837B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77837B1E+238]
+
+2023-07-07 14:57:39,826 - INFO - Clicking element with XPath: //checkbox[@id="onepass-content-pre-process-0-checkbox"]
+2023-07-07 14:57:39,826 - INFO - Clicking element with XPath: //checkbox[@id="onepass-content-pre-process-0-checkbox"]
+2023-07-07 14:57:39,835 - ERROR - Click action failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//checkbox[@id="onepass-content-pre-process-0-checkbox"]"}
+  (Session info: chrome=98.0.4758.141)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B69A3+2582947]
+	Ordinal0 [0x0084A6D1+2139857]
+	Ordinal0 [0x00743A98+1063576]
+	Ordinal0 [0x0076FF3E+1244990]
+	Ordinal0 [0x0077013B+1245499]
+	Ordinal0 [0x00799F52+1417042]
+	Ordinal0 [0x00788594+1344916]
+	Ordinal0 [0x0079834A+1409866]
+	Ordinal0 [0x00788366+1344358]
+	Ordinal0 [0x00765176+1200502]
+	Ordinal0 [0x00766066+1204326]
+	GetHandleVerifier [0x00A5BE02+1675858]
+	GetHandleVerifier [0x00B1036C+2414524]
+	GetHandleVerifier [0x0094BB01+560977]
+	GetHandleVerifier [0x0094A8D3+556323]
+	Ordinal0 [0x0085020E+2163214]
+	Ordinal0 [0x00855078+2183288]
+	Ordinal0 [0x008551C0+2183616]
+	Ordinal0 [0x0085EE1C+2223644]
+	BaseThreadInitThunk [0x756900C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77837B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77837B1E+238]
+
+2023-07-07 14:57:39,835 - ERROR - Click action failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//checkbox[@id="onepass-content-pre-process-0-checkbox"]"}
+  (Session info: chrome=98.0.4758.141)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008B69A3+2582947]
+	Ordinal0 [0x0084A6D1+2139857]
+	Ordinal0 [0x00743A98+1063576]
+	Ordinal0 [0x0076FF3E+1244990]
+	Ordinal0 [0x0077013B+1245499]
+	Ordinal0 [0x00799F52+1417042]
+	Ordinal0 [0x00788594+1344916]
+	Ordinal0 [0x0079834A+1409866]
+	Ordinal0 [0x00788366+1344358]
+	Ordinal0 [0x00765176+1200502]
+	Ordinal0 [0x00766066+1204326]
+	GetHandleVerifier [0x00A5BE02+1675858]
+	GetHandleVerifier [0x00B1036C+2414524]
+	GetHandleVerifier [0x0094BB01+560977]
+	GetHandleVerifier [0x0094A8D3+556323]
+	Ordinal0 [0x0085020E+2163214]
+	Ordinal0 [0x00855078+2183288]
+	Ordinal0 [0x008551C0+2183616]
+	Ordinal0 [0x0085EE1C+2223644]
+	BaseThreadInitThunk [0x756900C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77837B4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77837B1E+238]
+
